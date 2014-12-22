@@ -1,0 +1,158 @@
+/* Style Hopepiece */
+#bungkus {
+	
+	height: 1800px;
+	width: 1320px;
+	margin-left:-1px;
+	border-radius: 20px;
+}
+
+#hopepiece_logo{
+	position:absolute;
+	margin-left:-45px;
+	margin-top:2px;
+}
+
+#hopepiece {
+	background-color: #ff9900;
+	width: 1430px;
+	height: 50px;
+	color: white;
+	font-family: Segoe Print;
+	font-size: 40px;
+	margin-top:-8px;
+	margin-left:-25px;
+	position:fixed;
+	box-shadow: 0px 3px 6px #79797a;
+}
+
+#hope{
+	color:#b9fa5d;
+}
+
+#menu{
+	background-color: #e8e8ea;
+	width: 500px;
+	margin-top:568px;
+	height:80px;
+	margin-left:-225px;
+	border-radius: 14px;
+	position:fixed;
+	box-shadow: 0px 5px 6px #79797a;
+}
+
+#menu1:hover{
+	margin-top:-10px;
+	background-color:#b9fa5d;
+}
+
+#menu1 {
+	width: 70px;
+	height: 70px;
+	position:absolute;
+	background-color: #ff9900;
+	border:2px solid white;
+	display: inline-block;
+	border-radius: 35px;
+	margin-top: 2px;
+	margin-left: -185px;
+	margin-bottom: 5px;	
+	font-size: 14px;
+	font-family:Verdana;
+	color: white;
+}
+
+#home_icon{
+	width:30px;
+	height:30px;
+	position:absolute;
+	margin-left:-15px;
+	margin-top:2px;
+}
+
+#menu2:hover{
+	margin-top:-10px;
+	background-color:#b9fa5d;
+}
+
+#menu2 {
+	width: 70px;
+	height: 70px;
+	position:absolute;
+	background-color: #ff9900;
+	border:2px solid white;
+	display: inline-block;
+	border-radius: 35px;
+	margin-top: 2px;
+	margin-left:-85px;
+	margin-bottom: 5px;	
+	font-size: 14px;
+	font-family:Verdana;
+	color: white;
+}
+
+#mybox_icon{
+	width:30px;
+	height:30px;
+	position:absolute;
+	margin-left:-15px;
+	margin-top:2px;
+}
+
+#menu3:hover{
+	margin-top:-10px;
+	background-color:#b9fa5d;
+}
+
+#menu3 {
+	width: 70px;
+	height: 70px;
+	position:absolute;
+	background-color: #ff9900;
+	border:2px solid white;
+	display: inline-block;
+	border-radius: 35px;
+	margin-top: 2px;
+	margin-left: 15px;
+	margin-bottom: 5px;	
+	font-size: 14px;
+	font-family:Verdana;
+	color: white;
+}
+
+#fun_icon{
+	width:40px;
+	height:30px;
+	position:absolute;
+	margin-left:-20px;
+	margin-top:2px;
+}
+
+#menu4:hover{
+	margin-top:-10px;
+	background-color:#b9fa5d;
+}
+
+#menu4 {
+	width: 70px;
+	height: 70px;
+	position:absolute;
+	background-color: #ff9900;
+	border:2px solid white;
+	display: inline-block;
+	border-radius: 35px;
+	margin-top: 2px;
+	margin-left: 115px;
+	margin-bottom: 5px;	
+	font-size: 14px;
+	font-family:Verdana;
+	color: white;
+}
+
+#settings_icon{
+	width:40px;
+	height:40px;
+	position:absolute;
+	margin-left:-15px;
+	margin-top:-2px;
+}
