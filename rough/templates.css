@@ -22,7 +22,7 @@
 	font-size: 40px;
 	margin-top:-8px;
 	margin-left:-25px;
-	position:fixed;
+	position:;
 	box-shadow: 0px 3px 6px #79797a;
 }
 
@@ -33,7 +33,7 @@
 #menu{
 	background-color: #e8e8ea;
 	width: 500px;
-	margin-top:568px;
+	margin-top:500px;
 	height:80px;
 	margin-left:-225px;
 	border-radius: 14px;
@@ -155,4 +155,16 @@
 	position:absolute;
 	margin-left:-15px;
 	margin-top:-2px;
+}
+
+#tengah-kiri{
+position:absolute;
+height:500px;
+width:150px;
+margin-top:5px;
+margin-left:5px;
+border: 2px solid silver;
+}
+
+#tengah-tengah{
 }
