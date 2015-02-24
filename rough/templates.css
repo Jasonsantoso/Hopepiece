@@ -33,7 +33,7 @@
 #menu{
 	background-color: #e8e8ea;
 	width: 500px;
-	margin-top:500px;
+	margin-top:515px;
 	height:80px;
 	margin-left:-225px;
 	border-radius: 14px;
@@ -163,8 +163,15 @@ height:500px;
 width:150px;
 margin-top:5px;
 margin-left:5px;
-border: 2px solid silver;
+border: 1px solid silver;
 }
 
 #tengah-tengah{
+position:absolute;
+height:500px;
+width:1000px;
+margin-top:5px;
+margin-left:165px;
+border: 1px solid silver;
+}
 }
