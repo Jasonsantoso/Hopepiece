@@ -1,41 +1,78 @@
- 
- /* head */
- 
- #header1 {
-	display:inline-block;
-	list-style-type:none;
-	display:relative;
-	font-family:Arial;
-	font-size:30px;
-	width:1368px;
-	margin-left:-10px;
-	height:50px;
-	background-color:orange;
-	margin-top:-9px;
- }
- #home{
- margin-left:250px;
- margin-top:10px;
- display:inline-block;
- }
- #categories{
- margin-left:130px;
- display:inline-block;
- }
- #contact{
- margin-left:130px;
- display:inline-block;
- }
- #about{
- margin-left:130px;
- display:inline-block;
- }
- 
- 
+* {
+	font-family: comic sans ms;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#wrap {
+	box-shadow: 0px 0px 30px 1px gray;
+	border-radius: 10px;
+}
+
+/* head */
+#header1 {
+	background-color: #ff9900;
+	border-radius: 10px;
+}
+
+#title {
+	height: 42px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#menu {
+	margin-left: 10px;
+	height: 30px;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+#menu div {
+	display: inline-block;
+	margin-right: 50px;
+	background-color: white;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	box-shadow: 0px 3px 3px 3px #ff9900;
+}
+
+#menu div a:link {
+	color: gray;
+}
+
+#menu div:hover {
+    background-color: #ff9900;
+	box-shadow: 0px 0px 5px 5px #ffebcc;
+}
+
+#menu div a:active {
+    color: gray;
+}
+
+#menu div a:hover {
+	color: white;
+}
+
+#link-menu {
+	color: gray;
+}
+
  /*isi */
- #inside{
- }
- 
+#inside {
+	height: 600px;
+}
+
  /*kaki */
- #footer{
- }
+#footer {
+	height: 40px;
+	background-color: #ff9900;
+	border-radius: 10px;
+	text-align: right;
+	padding-right: 20px;
+	color: white;
+}
