@@ -1,0 +1,41 @@
+ 
+ /* head */
+ 
+ #header1 {
+	display:inline-block;
+	list-style-type:none;
+	display:relative;
+	font-family:Arial;
+	font-size:30px;
+	width:1368px;
+	margin-left:-10px;
+	height:50px;
+	background-color:orange;
+	margin-top:-9px;
+ }
+ #home{
+ margin-left:250px;
+ margin-top:10px;
+ display:inline-block;
+ }
+ #categories{
+ margin-left:130px;
+ display:inline-block;
+ }
+ #contact{
+ margin-left:130px;
+ display:inline-block;
+ }
+ #about{
+ margin-left:130px;
+ display:inline-block;
+ }
+ 
+ 
+ /*isi */
+ #inside{
+ }
+ 
+ /*kaki */
+ #footer{
+ }
