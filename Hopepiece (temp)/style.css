@@ -14,7 +14,6 @@ a:link {
 /* head */
 #header1 {
 	background-color: #ff9900;
-	border-radius: 10px;
 }
 
 #title {
@@ -25,41 +24,80 @@ a:link {
 }
 
 #menu {
-	margin-left: 10px;
-	height: 30px;
-	font-size: 20px;
-	margin-top: 5px;
+	height: 39px;
 }
 
-#menu div {
-	display: inline-block;
-	margin-right: 50px;
-	background-color: white;
-	width: 120px;
-	height: 30px;
-	text-align: center;
-	box-shadow: 0px 3px 3px 3px #ff9900;
+nav ul ul {
+	display: none;
 }
 
-#menu div a:link {
-	color: gray;
+nav ul li:hover > ul {
+	display: block;
 }
 
-#menu div:hover {
-    background-color: #ff9900;
-	box-shadow: 0px 0px 5px 5px #ffebcc;
+nav ul {
+	background: #efefef;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	margin-top: 1px;
 }
 
-#menu div a:active {
-    color: gray;
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
 }
 
-#menu div a:hover {
-	color: white;
+nav ul li {
+	float: left;
 }
 
-#link-menu {
-	color: gray;
+nav ul li:hover {
+	background: #ff9900;
+	box-shadow: 0px 0px 5px 2px white;
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	display: block; 
+	padding: 8px 20px;
+	color: #ff9900; 
+	text-decoration: none;
+}
+
+nav ul ul {
+	background: #F5AB35; 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+}
+
+nav ul ul li {
+	float: none;
+	border-top: 1px solid #F5AB35;
+	border-bottom: 1px solid #efefef;
+	position: relative;
+}
+
+nav ul ul li a {
+	padding: 6px 32px;
+	color: #fff;
+} 
+
+nav ul ul li a:hover {
+	background: #ff9900;
+}
+
+nav ul ul ul {
+	position: absolute; 
+	left: 100%; 
+	top:0;
 }
 
  /*isi */
@@ -71,7 +109,6 @@ a:link {
 #footer {
 	height: 40px;
 	background-color: #ff9900;
-	border-radius: 10px;
 	text-align: right;
 	padding-right: 20px;
 	color: white;
